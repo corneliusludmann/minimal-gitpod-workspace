@@ -1,4 +1,4 @@
-FROM buildpack-deps:focal
+FROM ubuntu
 
 ### base ###
 RUN yes | unminimize \
